@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Form demo</title>
+</head>
+<body>
+<b><h1>Hotel Booking</h1></b> 
+<form method="POST" action="https://angsila.cs.buu.ac.th/~wittawas/642/88726059/services/post.php">
+    <label for="Room Type">Room Type</label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <select name="Room Type">
+        <option value="0">Please Select &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</option>
+        <option value="Standrd">Standrd</option>
+        <option value="Luxury">Luxury</option>
+        <option value="Deluxe">Deluxe</option>
+    </select>
+    <br><br>
+    <label for="Number of Guesls">Number of Guests</label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;
+    <select name="numguests">
+        <option value="0">Please Select &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</option>
+        <option value="1-2">1-2</option>
+        <option value="3-4">3-4</option>
+        <option value="5-6">5-6</option>
+    </select>
+    <br><br>
+    <label for="Name">Name</label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <input type="text" name="fname" id="fname" size=20>
+    <input type="text" name="lname" id="lname"size=20>
+    <br><br>
+    <label for="Email">Email</label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <input type="text" name="email" id="email" size=47>
+    <br><br>
+    <label for="Arrival">Arrival</label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <input type="date" name="arrivaldate" id="arrivaldate" size=15>
+    &emsp;&emsp;
+    <input type="time" name="arrivaltime" id="arrivaltime"size=15>
+    <br><br>
+    <label for="Departure">Departure</label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <input type="date" name="departuredate" id="departuredate" size=15>
+    &emsp;&emsp;
+    <input type="time" name="departuretime" id="departuretime"size=15>
+    <br><br>
+    <label for="Free Pickup">Free Pickup:</label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;
+    <input type="radio" name="pickup" id="pickup" value="Yes">Yes, Sure!
+    <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <input type="radio" name="pickup" id="pickup" value="No">No, I already rented a car.
+    <br><br>
+    <label for="Fight Number">Fight Number</label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;
+    <input type="text" name="fightNum" id="fightNum" size=47>
+    <br><br>
+    Other requests
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;
+    <Textarea  name="commmet" id="comment" rows="5" cols="50"></Textarea>
+    <br><br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <input type="submit" value="Complete Reservation">
+    </form>
+    </body>
+</html>
